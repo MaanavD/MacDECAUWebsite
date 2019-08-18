@@ -1,0 +1,9 @@
+$theme-colors: (
+  "primary": #7A003C  ,
+  "secondary": #5E6A71  ,
+  "info": #FDBF57,
+);
+$body-bg: #fff;
+$font-family-sans-serif: 'Lato', sans-serif;
+//Import Bootstrap 
+@import '~bootstrap/scss/bootstrap.scss';
