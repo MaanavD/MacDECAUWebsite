@@ -5,8 +5,8 @@ function Exec() {
   const a = [1, 10, 100, 1000];
   return (
     <div className="Exec">
-      <h1 className='text-primary text-center'>Meet our Executive</h1>
-      <div className="container exec-container">
+      <h1 className='text-primary text-center exec-title'>Meet our Executive</h1>
+      <div className="container">
         <div className="card-deck">
           {a.map(i => {
             return <Card />
