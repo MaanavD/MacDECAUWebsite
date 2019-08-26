@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Alert() {
+function Alert(props) {
   return (
     <div className="alert alert-primary" role="alert">
-    <h4 className="alert-heading">Practise Cases</h4>
-    <p>This link is to some practise cases for each category</p>
+    <h4 className="alert-heading">{props.heading}</h4>
+    <p>{props.content}</p>
     <hr/>
-    <a href="#" className="card-link">Google Drive</a>
-    <a href="#" className="card-link">Dropbox</a>
+    <a href={props.link} className="card-link">{props.linkWords}</a>
   </div>
   );
 }

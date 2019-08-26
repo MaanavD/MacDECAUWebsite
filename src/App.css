@@ -3,8 +3,13 @@
     --mac-secondary: #FDBF57;
     --mac-grey: #5E6A71;
   }
+  ::-webkit-scrollbar {
+    display: none;
+    }
+
+  /* HTML */
   html{
-    overflow: hidden;
+    overflow-x: hidden
   }
   /* Navbar */
   .navLogo{
@@ -20,10 +25,13 @@
   a{
     text-decoration: none !important;
   }
-  
+  /* Home */
+  .Home{
+    overflow: hidden !important;
+    height: 100vh;
+  }
    video{
-    width: 100vw;
-    position: absolute; 
+    height: 125vh;
     opacity: 0.75;
   }
   
@@ -41,14 +49,18 @@
     width: 100%;;
   }
   /* About */
-  
+  .About{
+    overflow: hidden;
+  }
+  .carousel{
+    height: 100vh;
+  }
    /* Exec */
   .Exec{
       margin-top: 8vh;
   }
   .card{
-    width: 18rem;
-    margin: auto;
+    min-width: 15rem;
   }
   .exec-container{
     margin-top: 4vh;
@@ -57,7 +69,6 @@
   .Events{
     margin-top: 8vh;
   }
-  
    /* Resources */
   .Resources{
     margin-top: 8vh;
@@ -65,7 +76,6 @@
   .res-title{
     margin-bottom: 2vh;
   }
-  .
   /* Sponsors */
   .Sponsors{
     margin-top: 8vh;
@@ -76,13 +86,35 @@
     .mobile-only{
       display: none;
     }
+    .card-columns {
+      column-count: 4;
+    }
   }
   
    @media (max-width: 991px) {
     .desktop-only{
       display: none;
     }
+    .card{
+      margin-left: 10vw;
+      margin-right: 10vw;
+      display: block !important;
+    }
     html{
       overflow: visible;
+    }
+    .card-columns {
+      column-count: 2;
+    }
+    video{
+      height: 100vh;
+      width: inherit;
+      opacity: 0.75;
+    }
+  }
+
+  @media (max-width: 576px){
+    .card-columns {
+      column-count: 1;
     }
   }
