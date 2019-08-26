@@ -22,7 +22,7 @@
   }
   
    video{
-    height: 100vh;
+    width: 100vw;
     position: absolute; 
     opacity: 0.75;
   }
@@ -40,6 +40,7 @@
     margin-top:2vh;
     width: 100%;;
   }
+  /* About */
   
    /* Exec */
   .Exec{
