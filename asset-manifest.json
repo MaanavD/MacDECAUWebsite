@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MacDECAUWebsite/static/css/main.a5dde0ac.chunk.css",
+    "main.js": "/MacDECAUWebsite/static/js/main.1689b193.chunk.js",
+    "main.js.map": "/MacDECAUWebsite/static/js/main.1689b193.chunk.js.map",
+    "runtime~main.js": "/MacDECAUWebsite/static/js/runtime~main.11790fca.js",
+    "runtime~main.js.map": "/MacDECAUWebsite/static/js/runtime~main.11790fca.js.map",
+    "static/js/2.926f43fe.chunk.js": "/MacDECAUWebsite/static/js/2.926f43fe.chunk.js",
+    "static/js/2.926f43fe.chunk.js.map": "/MacDECAUWebsite/static/js/2.926f43fe.chunk.js.map",
+    "index.html": "/MacDECAUWebsite/index.html",
+    "precache-manifest.c19d68a0181274f6242597f8ab10739e.js": "/MacDECAUWebsite/precache-manifest.c19d68a0181274f6242597f8ab10739e.js",
+    "service-worker.js": "/MacDECAUWebsite/service-worker.js",
+    "static/css/main.a5dde0ac.chunk.css.map": "/MacDECAUWebsite/static/css/main.a5dde0ac.chunk.css.map",
+    "static/media/MDCC.png": "/MacDECAUWebsite/static/media/MDCC.0d939cc8.png",
+    "static/media/App.css": "/MacDECAUWebsite/static/media/bg.807f6f0f.png",
+    "static/media/exec.png": "/MacDECAUWebsite/static/media/exec.b3b711c2.png",
+    "static/media/logo.png": "/MacDECAUWebsite/static/media/logo.5cdeaa79.png",
+    "static/media/provs.png": "/MacDECAUWebsite/static/media/provs.93261e76.png",
+    "static/media/video.mp4": "/MacDECAUWebsite/static/media/video.e77101d2.mp4"
+  }
+}
