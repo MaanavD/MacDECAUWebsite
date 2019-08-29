@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from './../img/logo.png';
 import './../App.css';
 
@@ -7,50 +7,49 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
       <div className="logoHolder">
-        <Link to='/'>
+        <NavLink to='/'>
           <a class="navbar-brand" href="#"> <img className="navLogo" src={logo} alt="temp" />&nbsp;&nbsp;&nbsp;Mac DECA U</a>
-        </Link>
+        </NavLink>
       </div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav text-center">
-          <Link to='/about'>
+          <NavLink to='/about' activeClassName="navActive">
             <li className="nav-item">
               <a className="nav-link">About Us</a>
             </li>
-          </Link>
-          <Link to='/exec'>
+          </NavLink>
+          <NavLink to='/exec' activeClassName="navActive">
             <li className="nav-item">
               <a className="nav-link">Executive</a>
             </li>
-          </Link>
-          <Link to='/events'>
+          </NavLink>
+          <NavLink to='/events' activeClassName="navActive">
             <li className="nav-item">
               <a className="nav-link">Events Calendar</a>
             </li>
-          </Link>
-          <Link to='/resources'>
+          </NavLink>
+          <NavLink to='/resources' activeClassName="navActive">
             <li className="nav-item">
               <a className="nav-link">Resources</a>
             </li>
-          </Link>
-          <Link to='/sponsors'>
+          </NavLink>
+          <NavLink to='/sponsors' activeClassName="navActive">
             <li className="nav-item">
               <a className="nav-link">Sponsors</a>
             </li>
-          </Link>
-          <hr/>
-          <Link to='/sponsors'>
+          </NavLink>
+          <NavLink to='/sponsors' activeClassName="navActive">
             <li className="nav-item mobile-only">
-            <a className="nav-link text-info">Sign up</a>
+              <a className="nav-link text-info">Sign up</a>
             </li>
-          </Link>
+          </NavLink>
         </ul>
       </div>
       <form class="form-inline my-2 my-lg-0 desktop-only">
-          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign up</button>
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign up</button>
       </form>
     </nav>
   );

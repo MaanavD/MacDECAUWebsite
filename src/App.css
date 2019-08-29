@@ -15,15 +15,27 @@
   .navLogo{
     height: 30px;
   }
+  a{
+    text-decoration: none !important;
+  }
+  .navbar{
+    min-height: 6vh;
+  }
+  .navActive{
+    border-bottom: 1px var(--mac-secondary) solid;
+  }
+  .navActive:hover{
+    border-bottom: none;
+  }
+  .nav-item:hover{
+    border-bottom: 1px var(--mac-secondary) solid;
+  }
   .navbar-brand{
     padding: 0 2vw 0;
     border-right: var(--mac-secondary) solid 1px;
   }
   .logoHolder:hover{
     filter: saturate(150%);
-  }
-  a{
-    text-decoration: none !important;
   }
   /* Home */
   .Home{
@@ -43,17 +55,19 @@
     transform: translate(-50%, -50%);
     color: #FFF;
   }
-  iframe{
-    height: 85vh;
-    margin-top:2vh;
-    width: 100%;;
-  }
   /* About */
   .About{
     overflow: hidden;
   }
   .carousel{
     height: 100vh;
+  }
+  .carousel-image{
+    height: 100vh;
+  }
+  .bg-blur{
+    background-image: url('./img/bg.png');
+
   }
    /* Exec */
   .Exec{
@@ -68,6 +82,12 @@
   /* Events */
   .Events{
     margin-top: 8vh;
+    overflow-y: hidden !important;
+  }
+  iframe{
+    height: 82vh;
+    margin-top:2vh;
+    width: 100%;
   }
    /* Resources */
   .Resources{
