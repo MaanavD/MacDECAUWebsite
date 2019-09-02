@@ -1,6 +1,6 @@
 import React from 'react';
 import execPhoto from './../img/exec.png'
-import mdcc from './../img/MDCC.png'
+import mdcc from './../img/mdcc.png'
 import provs from './../img/provs.png'
 function Carousel() {
   return (
@@ -22,19 +22,19 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <div className="carousel-image d-flex align-items-center justify-content-center min-vh-100">
-            <img src={mdcc} className="d-block w-75 carousel-image" />
+            <img src={mdcc} className="d-block carousel-image" />
             <div className="carousel-caption">
               <h5>MDCC</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>At McMaster's DECA Case Competition, you will get the chance to put your business skills to the test. This competition is also an amazing networking opportunity! </p>
             </div>
           </div>
         </div>
         <div className="carousel-item">
           <div className="carousel-image d-flex align-items-center justify-content-center min-vh-100">
-            <img src={provs} className="d-block w-75 carousel-image" />
+            <img src={provs} className="d-block carousel-image" />
             <div className="carousel-caption">
               <h5>Provincial Competition</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <p>At the DECA U Provincial competition, you get the chance to meet and compete with over 1300 delegates across Ontario. Winners get medals and bragging rights.</p>
             </div>
           </div>
         </div>
