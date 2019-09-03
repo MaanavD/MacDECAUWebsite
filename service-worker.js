@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MacDECAUWebsite/precache-manifest.c19d68a0181274f6242597f8ab10739e.js"
+  "/MacDECAUWebsite/precache-manifest.e22064db14d873416edc8e6ce25d558e.js"
 );
 
 self.addEventListener('message', (event) => {
