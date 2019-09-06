@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cc95bf2738eec3e1ea7904b6ba278f5",
+    "revision": "ff84dcc9b7334ec0f0c4c887bafbe2c3",
     "url": "/MacDECAUWebsite/index.html"
   },
   {
-    "revision": "357cfab3eb8f60d2a46b",
-    "url": "/MacDECAUWebsite/static/css/main.88184057.chunk.css"
+    "revision": "8712f739ec0a13ee00e2",
+    "url": "/MacDECAUWebsite/static/css/main.f4bb448e.chunk.css"
   },
   {
-    "revision": "66d980376cb285b673af",
-    "url": "/MacDECAUWebsite/static/js/2.bf0b510a.chunk.js"
+    "revision": "b21444e3d20cc9a21b7c",
+    "url": "/MacDECAUWebsite/static/js/2.8ce9b934.chunk.js"
   },
   {
-    "revision": "357cfab3eb8f60d2a46b",
-    "url": "/MacDECAUWebsite/static/js/main.28b0446f.chunk.js"
+    "revision": "8712f739ec0a13ee00e2",
+    "url": "/MacDECAUWebsite/static/js/main.b19c0d3e.chunk.js"
   },
   {
     "revision": "c148a370e75483e4db9f",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MacDECAUWebsite/static/media/Amanda.b0c864bf.jpg"
   },
   {
+    "revision": "dca9bb1dbe6cfaab031515c5ff439244",
+    "url": "/MacDECAUWebsite/static/media/Andre.dca9bb1d.jpg"
+  },
+  {
     "revision": "23046191445b3baf64c211643dedc23f",
     "url": "/MacDECAUWebsite/static/media/Angel.23046191.jpg"
   },
   {
     "revision": "2a6da92fadbd35d02b2650530feb6fa2",
     "url": "/MacDECAUWebsite/static/media/Bilal.2a6da92f.jpg"
+  },
+  {
+    "revision": "73482af7eaf7565a63a29a13164cf092",
+    "url": "/MacDECAUWebsite/static/media/GCSC.73482af7.png"
   },
   {
     "revision": "276c69ad43634461759c8af98f92ad5e",
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "735789fd4c2a8f973d515f361b3d8217",
     "url": "/MacDECAUWebsite/static/media/Matthew.735789fd.jpg"
+  },
+  {
+    "revision": "e22c39f6e50c96bf7154e4f139faed14",
+    "url": "/MacDECAUWebsite/static/media/RBC.e22c39f6.png"
   },
   {
     "revision": "af811d418fd4e27e9cdcf40c9dcc8410",
@@ -64,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MacDECAUWebsite/static/media/Victor.27c610dd.jpg"
   },
   {
+    "revision": "576e8e195f8920dbc82e348b602e4308",
+    "url": "/MacDECAUWebsite/static/media/action.576e8e19.png"
+  },
+  {
     "revision": "807f6f0ff7485e125d4a8e1068125ea3",
     "url": "/MacDECAUWebsite/static/media/bg.807f6f0f.png"
   },
   {
     "revision": "b3b711c284d4ede0e614880e5ad078c2",
     "url": "/MacDECAUWebsite/static/media/exec.b3b711c2.png"
+  },
+  {
+    "revision": "da70f9f3eba2e2b0e81fdc2fe79a345d",
+    "url": "/MacDECAUWebsite/static/media/forge.da70f9f3.png"
   },
   {
     "revision": "5cdeaa7945ae982f80c366e882626807",
@@ -86,5 +106,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e77101d26b16732cac39f8dc9511fca9",
     "url": "/MacDECAUWebsite/static/media/video.e77101d2.mp4"
+  },
+  {
+    "revision": "1e6855092e80667c8ba78522d71ad7f2",
+    "url": "/MacDECAUWebsite/static/media/volkswagen.1e685509.png"
   }
 ]);
