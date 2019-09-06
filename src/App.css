@@ -37,6 +37,9 @@
   .logoHolder:hover{
     filter: saturate(150%);
   }
+  .navbar Button:hover{
+    color: var(--mac-primary);
+  }
   /* Home */
   .Home{
     overflow: hidden !important;
@@ -79,6 +82,9 @@
   .exec-container{
     margin-top: 4vh;
   }
+  .card:hover{
+    transform: scale(1.03);
+  }
   /* Events */
   .Events{
     margin-top: 8vh;
@@ -100,15 +106,16 @@
   .Sponsors{
     margin-top: 8vh;
   }
+  .spCards > .card > .card-img-top {
+    background-color: var(--mac-secondary);
+  }
   
    /* Media Queries */
   @media (min-width: 992px) {
     .mobile-only{
       display: none;
     }
-    .card-columns {
-      column-count: 4;
-    }
+    
   }
   
    @media (max-width: 991px) {
@@ -123,18 +130,9 @@
     html{
       overflow: visible;
     }
-    .card-columns {
-      column-count: 2;
-    }
     video{
       height: 100vh;
       width: inherit;
       opacity: 0.75;
-    }
-  }
-
-  @media (max-width: 576px){
-    .card-columns {
-      column-count: 1;
     }
   }

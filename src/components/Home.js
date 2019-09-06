@@ -12,5 +12,9 @@ function Home() {
     </div>
   );
 }
-
+//TODO: Lazyloading
+//TODO: Linting errors
+//TODO: Sponsors
+//TODO: Resources + Split var for card inputs
+//TODO: loading screen between pages
 export default Home;

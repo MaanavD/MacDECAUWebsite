@@ -6,7 +6,7 @@ function Alert(props) {
     <h4 className="alert-heading">{props.heading}</h4>
     <p>{props.content}</p>
     <hr/>
-    <a href={props.link} className="card-link">{props.linkWords}</a>
+    <a href={props.link} className="card-link" target="_blank">{props.linkWords}</a>
   </div>
   );
 }
