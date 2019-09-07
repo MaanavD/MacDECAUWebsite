@@ -9,5 +9,4 @@ function Video() {
     </video>
   );
 }
-
 export default Video;

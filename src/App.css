@@ -106,10 +106,6 @@
   .Sponsors{
     margin-top: 8vh;
   }
-  .spCards > .card > .card-img-top {
-    background-color: var(--mac-secondary);
-  }
-  
    /* Media Queries */
   @media (min-width: 992px) {
     .mobile-only{

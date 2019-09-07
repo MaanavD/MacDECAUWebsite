@@ -122,13 +122,11 @@ export const premiumSponsors = [{
   image: require("./../img/sponsors/volkswagen.png"),
   name: "VW Hamilton",
   position: "Premium Sponsor",
-  description: "1",
   link1link: "https://www.hamiltonvw.com/en"
 }, {
   image: require("./../img/sponsors/GCSC.png"),
   name: "Great Canadian Sales Competiton",
   position: "Premium Sponsor",
-  description: "2",
   link1link: "http://www.greatcanadiansalescompetition.com/",
   link2: "Apply for Competition",
   link2link: "http://www.greatcanadiansalescompetition.com/enter-now-1"

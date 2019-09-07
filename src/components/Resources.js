@@ -16,5 +16,4 @@ function Resources() {
     </div>
   );
 }
-
 export default Resources;

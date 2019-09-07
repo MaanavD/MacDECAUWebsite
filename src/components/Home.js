@@ -1,6 +1,5 @@
 import React from 'react';
 import Video from './Video';
-
 function Home() {
   return (
     <div className="Home">
@@ -14,7 +13,5 @@ function Home() {
 }
 //TODO: Lazyloading
 //TODO: Linting errors
-//TODO: Sponsors
-//TODO: Resources + Split var for card inputs
 //TODO: loading screen between pages
 export default Home;
