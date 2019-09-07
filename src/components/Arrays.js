@@ -25,7 +25,7 @@ export const exec = [
     image: require("./../img/exec/Alyshia.jpg"),
     name: "Alyshia Laidlaw",
     position: "Training",
-    description: "4",
+    description: "Marketing",
     link1link: "",
     link2link: ""
   }, {
