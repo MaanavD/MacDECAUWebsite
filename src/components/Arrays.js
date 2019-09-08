@@ -3,87 +3,87 @@ export const exec = [
     image: require("./../img/exec/Amanda.jpg"),
     name: "Amanda Pinto",
     position: "Co-President",
-    description: "1",
-    link1link: "",
-    link2link: ""
+    description: "IM | PMI | MM | STCK",
+    link1link: "mailto:pintoa1@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/amanda-pinto/"
   },
   {
     image: require("./../img/exec/Shuke.jpg"),
     name: "Shuke Wang",
     position: "Co-President",
-    description: "2",
-    link1link: "",
-    link2link: ""
+    description: "IM | ACT | FRM | Quiz Bowl",
+    link1link: "mailto:wangs51@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/shuke-wang/"
   }, {
     image: require("./../img/exec/Maanav.jpg"),
     name: "Maanav Dalal",
     position: "Training",
-    description: "B2B |  MCO | ADC",
+    description: "B2B | MCO | ADC | SEM",
     link1link: "mailto:dalalm1@mcmaster.ca",
-    link2link: "123"
+    link2link: "https://www.linkedin.com/in/maanavdalal/"
   }, {
     image: require("./../img/exec/Alyshia.jpg"),
     name: "Alyshia Laidlaw",
     position: "Training",
-    description: "Marketing",
-    link1link: "",
-    link2link: ""
+    description: "INT | MM | RFSM | SEM | TM",
+    link1link: "mailto:",
+    link2link: "https://www.linkedin.com/in/alyshia-laidlaw-701502173/"
   }, {
     image: require("./../img/exec/Victor.jpg"),
     name: "Victor Yau",
     position: "Events",
-    description: "5",
-    link1link: "",
-    link2link: ""
+    description: "IM | B2B | MCO | PM | TM",
+    link1link: "mailto:yauv1@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/victor-yau/"
   }, {
     image: require("./../img/exec/Shiksha.jpg"),
     name: "Shiksha Varman",
     position: "Events",
-    description: "6",
-    link1link: "",
-    link2link: ""
+    description: "TODO:",
+    link1link: "mailto:TODO:",
+    link2link: "https://www.linkedin.com/in/shikshavarman/"
   }, {
     image: require("./../img/exec/Bilal.jpg"),
     name: "Bilal Khan",
     position: "Corporate Relations",
-    description: "7",
-    link1link: "",
-    link2link: ""
+    description: "LAW | B2B | IM | SEM | TM",
+    link1link: "mailto:khanb21@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/bilal-k-/"
   }, {
     image: require("./../img/exec/Angel.jpg"),
     name: "Angel Cai",
     position: "Marketing",
-    description: "8",
-    link1link: "",
-    link2link: ""
+    description: "ACT | LAW | HRM |MM | TM",
+    link1link: "mailto:caia7@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/angel-cai/"
   }, {
     image: require("./../img/exec/Andre.jpg"),
     name: "Andre Rousseau",
     position: "Finance / Corporate Relations",
-    description: "9",
-    link1link: "",
-    link2link: ""
+    description: "ADC | IM | MCO | MM | PMI | RFSM | SEED | STCK | TM",
+    link1link: "mailto:roussa1@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/roussa1/"
   }, {
     image: require("./../img/exec/Matthew.jpg"),
     name: "Matthew Milne",
     position: "Delegate Engagement",
-    description: "10",
-    link1link: "",
-    link2link: ""
+    description: "HRM | MM",
+    link1link: "mailto:milnem@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/matthew-milne/"
   }, {
     image: require("./../img/exec/Sukhraj.jpg"),
     name: "Sukhraj Sandhu",
     position: "Logistics",
-    description: "11",
-    link1link: "",
-    link2link: ""
+    description: "TODO:",
+    link1link: "mailto:TODO:",
+    link2link: "https://www.linkedin.com/in/sukhraj-sandhu/"
   }, {
     image: require("./../img/exec/Jenna.jpg"),
-    name: "Jenna Giardi",
+    name: "Jenna Girardi",
     position: "Communications",
-    description: "12",
-    link1link: "",
-    link2link: ""
+    description: "Accounting",
+    link1link: "mailto:girardij@mcmaster.ca",
+    link2link: "https://www.linkedin.com/in/jennagirardi/"
   }
 ];
 
