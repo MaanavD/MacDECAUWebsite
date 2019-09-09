@@ -102,6 +102,9 @@
   .res-title{
     margin-bottom: 2vh;
   }
+  .alert:hover{
+    transform: scale(1.03);
+  }
   /* Sponsors */
   .Sponsors{
     margin-top: 8vh;

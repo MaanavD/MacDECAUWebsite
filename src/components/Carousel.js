@@ -1,7 +1,8 @@
 import React from 'react';
-import execPhoto from './../img/exec.png'
-import mdcc from './../img/mdcc.png'
-import provs from './../img/provs.png'
+import LazyLoad from 'react-lazy-load';
+import execPhoto from './../img/exec.jpg'
+import mdcc from './../img/mdcc.jpg'
+import provs from './../img/provs.jpg'
 function Carousel() {
   return (
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
@@ -13,7 +14,9 @@ function Carousel() {
       <div className="carousel-inner bg-blur" role="listbox">
         <div className="carousel-item active">
           <div className="carousel-image d-flex align-items-center justify-content-center min-vh-100">
-            <img src={execPhoto} className="d-block carousel-image" />
+            <LazyLoad>
+              <img src={execPhoto} className="d-block carousel-image" />
+            </LazyLoad>
             <div className="carousel-caption">
               <h5 className="text-white">Chapter Meetings</h5>
               <p className="text-white">In meetings, we teach you about business cases and competition, with frequent guest speakers and opportunites to network.</p>
@@ -22,7 +25,9 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <div className="carousel-image d-flex align-items-center justify-content-center min-vh-100">
-            <img src={mdcc} className="d-block carousel-image" />
+            <LazyLoad>
+              <img src={mdcc} className="d-block carousel-image" />
+            </LazyLoad>
             <div className="carousel-caption">
               <h5>MDCC</h5>
               <p>At McMaster's DECA Case Competition, you will get the chance to put your business skills to the test. This competition is also an amazing networking opportunity! </p>
@@ -31,7 +36,9 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <div className="carousel-image d-flex align-items-center justify-content-center min-vh-100">
-            <img src={provs} className="d-block carousel-image" />
+            <LazyLoad>
+              <img src={provs} className="d-block carousel-image" />
+            </LazyLoad>
             <div className="carousel-caption">
               <h5>Provincial Competition</h5>
               <p>At the DECA U Provincial competition, you get the chance to meet and compete with over 1300 delegates across Ontario. Winners get medals and bragging rights.</p>
