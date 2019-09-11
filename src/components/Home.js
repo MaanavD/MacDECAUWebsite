@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="Home">
       <Video />
-      <div class="hero-text">
+      <div id="hero" class="hero-text hide">
         <h1>Welcome to...</h1>
         <p>Mac DECA U</p>
       </div>

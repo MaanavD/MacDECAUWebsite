@@ -22,7 +22,7 @@ function Sponsors() {
         </div>
       </div>
       <div className="navbar bg-info border-top border-primary">
-        <p className="form-inline my-2 my-lg-0 ml-auto text-grey" >© 2019, assembled by &nbsp;<a target="_blank" href="https://maanavdalal.com/"> Maanav Dalal</a></p>
+        <p className="form-inline my-2 my-lg-0 ml-auto text-grey" >© 2019, assembled by &nbsp;<a target="_blank" rel="noopener noreferrer" href="https://maanavdalal.com/"> Maanav Dalal</a></p>
       </div>
     </div>
   );

@@ -39,8 +39,8 @@ export const exec = [
     image: require("./../img/exec/Shiksha.jpg"),
     name: "Shiksha Varman",
     position: "Events",
-    description: "TODO:",
-    link1link: "mailto:TODO:",
+    description: "-",
+    link1link: "mailto:varmans@mcmaster.ca",
     link2link: "https://www.linkedin.com/in/shikshavarman/"
   }, {
     image: require("./../img/exec/Bilal.jpg"),
@@ -74,8 +74,8 @@ export const exec = [
     image: require("./../img/exec/Sukhraj.jpg"),
     name: "Sukhraj Sandhu",
     position: "Logistics",
-    description: "TODO:",
-    link1link: "mailto:TODO:",
+    description: "LAW | SEED",
+    link1link: "mailto:sandhs12@mcmaster.ca",
     link2link: "https://www.linkedin.com/in/sukhraj-sandhu/"
   }, {
     image: require("./../img/exec/Jenna.jpg"),

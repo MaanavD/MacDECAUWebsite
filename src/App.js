@@ -10,14 +10,22 @@ import Exec from './components/Exec';
 import Events from './components/Events';
 import Sponsors from './components/Sponsors';
 import Resources from './components/Resources';
-
+import Loader from './components/Loader';
 
 
 function App() {
+  setTimeout(function () {
+    try{
+      document.getElementById('loader').className = "hide";
+      document.getElementById('hero').className = "hero-text";
+    }
+    catch(error){};
+  }, 2000);
   return (
     <Router>
+      <Loader />
+      <Nav ></Nav>
       <div className="App">
-        <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
@@ -28,6 +36,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+
   );
 }
 require('bootstrap');
