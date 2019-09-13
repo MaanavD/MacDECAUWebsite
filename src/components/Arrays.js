@@ -138,10 +138,10 @@ export const sponsors = [{
   link1link: "https://tak3action.com/",
   link2link: ""
 }, {
-  image: require("./../img/sponsors/forge.png"),
-  name: "The Forge McMaster",
+  image: require("./../img/sponsors/scotia.png"),
+  name: "Scotiabank",
   position: "Sponsor",
-  link1link: "https://theforge.mcmaster.ca/"
+  link1link: "https://www.scotiabank.com/ca/en/personal.html"
 }, {
   image: require("./../img/sponsors/RBC.png"),
   name: "RBC",
