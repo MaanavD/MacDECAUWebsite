@@ -8,7 +8,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
       <div className="logoHolder">
         <NavLink to='/'>
-          <btn class="navbar-brand text-white"> <img className="navLogo" src={logo} alt="temp" />&nbsp;&nbsp;&nbsp;Mac DECA U</btn>
+          <btn onClick="window.location.reload();" class="navbar-brand text-white"> <img className="navLogo" src={logo} alt="temp" />&nbsp;&nbsp;&nbsp;Mac DECA U</btn>
         </NavLink>
       </div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -39,7 +39,7 @@ export const exec = [
     image: require("./../img/exec/Shiksha.jpg"),
     name: "Shiksha Varman",
     position: "Events",
-    description: "-",
+    description: "FMS | SEM | HRM | RFSM",
     link1link: "mailto:varmans@mcmaster.ca",
     link2link: "https://www.linkedin.com/in/shikshavarman/"
   }, {
@@ -60,7 +60,7 @@ export const exec = [
     image: require("./../img/exec/Andre.jpg"),
     name: "Andre Rousseau",
     position: "Finance / Corporate Relations",
-    description: "ADC | IM | MCO | MM | PMI | RFSM | SEED | STCK | TM",
+    description: " IM | RFSM | SEED | STCK ",
     link1link: "mailto:roussa1@mcmaster.ca",
     link2link: "https://www.linkedin.com/in/roussa1/"
   }, {
@@ -138,13 +138,13 @@ export const sponsors = [{
   link1link: "https://tak3action.com/",
   link2link: ""
 }, {
-  image: require("./../img/sponsors/scotia.png"),
-  name: "Scotiabank",
+  image: require("./../img/sponsors/bmo.png"),
+  name: "Bank of Montreal",
   position: "Sponsor",
-  link1link: "https://www.scotiabank.com/ca/en/personal.html"
+  link1link: "https://www.bmo.com/main/personal"
 }, {
   image: require("./../img/sponsors/RBC.png"),
-  name: "RBC",
+  name: "RBC Royal Bank",
   position: "Sponsor",
   link1link: "https://www.rbcroyalbank.com/personal.html"
 }];
