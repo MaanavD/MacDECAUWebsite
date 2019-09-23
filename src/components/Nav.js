@@ -41,16 +41,14 @@ function Nav() {
               <btn className="nav-link">Sponsors</btn>
             </li>
           </NavLink>
-          <NavLink to='/sponsors' activeClassName="navActive">
-            <li className="nav-item mobile-only">
-              <btn className="nav-link text-info">Sign up</btn>
-            </li>
-          </NavLink>
+            <a rel="noopener noreferrer" target="_blank" href="https://www.eventbrite.ca/e/mcmaster-deca-u-membership-2019-2020-tickets-73719283361" className="nav-item mobile-only">
+              <btn className="nav-link text-info">Buy a Membership</btn>
+            </a>
         </ul>
       </div>
-      <form class="form-inline my-2 my-lg-0 desktop-only">
-        <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Sign up</button>
-      </form>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.eventbrite.ca/e/mcmaster-deca-u-membership-2019-2020-tickets-73719283361" class="form-inline my-2 my-lg-0 desktop-only">
+        <button  className="btn btn-outline-info my-2 my-sm-0" type="submit">Buy a Membership</button>
+      </a>
     </nav>
   );
 }

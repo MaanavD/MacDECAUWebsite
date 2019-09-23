@@ -94,8 +94,13 @@ export const resources = [
     link: "https://decau.ca/new/studentRegistration",
     linkWords: "Deca U"
   },{
+    heading: "Provincial Categories",
+    content: "Click here if you're not sure what event you want to pick! DECA U's website goes over each and every category in depth and even provides a sample case.",
+    link: "https://www.decau.ca/v2/categories",
+    linkWords: "Deca U"
+  },{
     heading: "Events Overview",
-    content: "Not sure about which event you want to pick? Trying to figure out what's right for you? Click this to help you figure everything out!",
+    content: "Still not sure about which event you want to pick? Trying to figure out what's right for you? Click this to help you figure everything out!",
     link: "https://www.deca.org/college-programs/college-competitive-events/",
     linkWords: "Collegiate DECA"
   },
@@ -147,4 +152,9 @@ export const sponsors = [{
   name: "RBC Royal Bank",
   position: "Sponsor",
   link1link: "https://www.rbcroyalbank.com/personal.html"
+},{
+  image: require("./../img/sponsors/forge.png"),
+  name: "The Forge McMaster",
+  position: "Sponsor",
+  link1link: "https://theforge.mcmaster.ca/"
 }];
