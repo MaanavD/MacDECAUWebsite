@@ -13,7 +13,7 @@ function Sponsors() {
             )
           })}
         </div>
-        <div className="card-deck spCards">
+        <div className="card-columns spCards">
           {sponsors.map(sponsor => {
             return (
               <Card link1link={sponsor.link1link} link2link={sponsor.link2link} link1={sponsor.link1 || "Website"} link2={sponsor.link2} image={sponsor.image} name={sponsor.name} position={sponsor.position} description={sponsor.description} />

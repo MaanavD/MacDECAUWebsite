@@ -157,4 +157,9 @@ export const sponsors = [{
   name: "The Forge McMaster",
   position: "Sponsor",
   link1link: "https://theforge.mcmaster.ca/"
+},{
+  image: require("./../img/sponsors/alumni.png"),
+  name: "McMaster Alumni Association",
+  position: "Sponsor",
+  link1link: "http://alumni.mcmaster.ca/s/1439/17/home.aspx"
 }];
