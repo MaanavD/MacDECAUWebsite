@@ -90,19 +90,19 @@ export const exec = [
 export const resources = [
   {
     heading: "DECA Registration",
-    content: "Register your chapter membership with the link below. Complete this form AFTER you have paid your chapter fees.",
+    content: "If you haven't already registered, please do so ASAP!",
     link: "https://decau.ca/new/studentRegistration",
     linkWords: "Deca U"
   },{
-    heading: "Provincial Categories",
-    content: "Click here if you're not sure what event you want to pick! DECA U's website goes over each and every category in depth and even provides a sample case.",
-    link: "https://www.decau.ca/v2/categories",
-    linkWords: "Deca U"
+    heading: "Mock Case #1 Cases",
+    content: "Click here for access to all of the mock cases for week 1. Please read and prepare your case for the timeslot you have selected on the doodle!",
+    link: "https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D15LFUIbvWPRTSjlehFhHi16tMJybE9SpK&h=AT32ksa2It6iHsnp8hhsD3UF4S5Cqtlg4_cyTpGJzSxNszjJEHDHZ98U26d3W6l4-Ns9PH8nZ3AdaBuwmPMqEqIaZgnK1cyRSuFPFIMA_gBYv_TZK7faW0fI5122DYAOWZYwjg",
+    linkWords: "Google Drive"
   },{
-    heading: "Events Overview",
-    content: "Still not sure about which event you want to pick? Trying to figure out what's right for you? Click this to help you figure everything out!",
-    link: "https://www.deca.org/college-programs/college-competitive-events/",
-    linkWords: "Collegiate DECA"
+    heading: "DECA Guidebook",
+    content: "Our Executive have created a DECA guidebook this year to help you get the essential information you need to be successful! Please download it and review it by clicking the link below.",
+    link: "https://drive.google.com/file/d/1efQvEnk30jDmW4FwJ8s90JB52tPUqKar/view?usp=sharing",
+    linkWords: "Download Guidebook"
   },
   {
     heading: "Case Studies",
