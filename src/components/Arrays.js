@@ -92,7 +92,7 @@ export const resources = [
     heading: "Training Lessons",
     content: "A direct link to all of Alyshia and Maanav's Training Slides. If you've missed a lesson, this is a great way to catch up.",
     link: "https://drive.google.com/open?id=1NRFJWCLZrVeVRgKv5Zyzvs2MKCJo7pxr",
-    linkWords: "Download Guidebook"
+    linkWords: "Training Lessons"
   },{
     heading: "DECA Guidebook",
     content: "Our Executive have created a DECA guidebook this year to help you get the essential information you need to be successful! Please download it and review it by clicking the link below.",
