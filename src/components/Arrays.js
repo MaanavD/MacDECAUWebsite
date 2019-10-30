@@ -90,7 +90,7 @@ export const exec = [
 export const resources = [
   {
     heading: "Training Lessons",
-    content: "A direct link to all of Alyshia and Maanav's Training Slides. If you've missed a lesson, this is a great way to catch up.",
+    content: "A direct link to all of our Training Slides. If you've missed a lesson, this is a great way to catch up.",
     link: "https://drive.google.com/open?id=1NRFJWCLZrVeVRgKv5Zyzvs2MKCJo7pxr",
     linkWords: "Training Lessons"
   },{
