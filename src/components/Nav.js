@@ -41,13 +41,13 @@ function Nav() {
               <btn className="nav-link">Sponsors</btn>
             </li>
           </NavLink>
-            <a rel="noopener noreferrer" target="_blank" href="///" className="nav-item mobile-only">
-              <btn className="nav-link text-info">Mock Case #2 Doodle</btn>
+            <a rel="noopener noreferrer" target="_blank" href="https://www.eventbrite.ca/e/mcmaster-deca-u-case-competition-mdcc-tickets-77726119917" className="nav-item mobile-only">
+              <btn className="nav-link text-info">MDCC Tickets</btn>
             </a>
         </ul>
       </div>
-      <a rel="noopener noreferrer" target="_blank" href="///" class="form-inline my-2 my-lg-0 desktop-only">
-        <button  className="btn btn-outline-info my-2 my-sm-0" type="submit">Mock Case #2 Doodle</button>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.eventbrite.ca/e/mcmaster-deca-u-case-competition-mdcc-tickets-77726119917" class="form-inline my-2 my-lg-0 desktop-only">
+        <button  className="btn btn-outline-info my-2 my-sm-0" type="submit">MDCC Tickets</button>
       </a>
     </nav>
   );
