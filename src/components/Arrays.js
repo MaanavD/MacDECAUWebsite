@@ -97,7 +97,7 @@ export const resources = [
   {
     heading: "External MDCC Delegate Registration",
     content: "If you don't go to McMaster, or have friends who you want to attend MDCC, send them this link to register!",
-    link: "https://forms.gle/LCbxLP5q5XLe1BCE8",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSefa10RG3stciCt8PW1_-uRfUzgZe76VMzUW3g34o76aCl3FA/viewform?usp=sf_link",
     linkWords: "MDCC External Registration"
   },{
     heading: "MDCC Delegate Package",
