@@ -8,14 +8,11 @@ function Nav() {
 		<nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
 			<div className="logoHolder">
 				<NavLink to="/">
-					<btn
-						onClick="window.location.reload();"
-						class="navbar-brand text-white"
-					>
+					<div className="navbar-brand text-white">
 						{" "}
 						<img className="navLogo" src={logo} alt="temp" />
 						&nbsp;&nbsp;&nbsp;Collegiate DECA McMaster
-					</btn>
+					</div>
 				</NavLink>
 			</div>
 			<button
@@ -66,7 +63,7 @@ function Nav() {
 					</a>
 				</ul>
 			</div>
-			<a
+			{/* <a
 				rel="noopener noreferrer"
 				target="_blank"
 				href="https://www.eventbrite.ca/e/mcmaster-deca-u-case-competition-mdcc-tickets-77726119917"
@@ -75,7 +72,7 @@ function Nav() {
 				<button className="btn btn-outline-info my-2 my-sm-0" type="submit">
 					MDCC Tickets
 				</button>
-			</a>
+			</a> */}
 		</nav>
 	);
 }
