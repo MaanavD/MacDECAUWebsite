@@ -8,7 +8,7 @@ function Exec() {
 	useEffect(() => {
 		const fetchExecs = async () => {
 			const response = await axios.get(
-				"https://deca-mcmaster-admin.herokuapp.com/executives"
+				"https://deca-mcmaster-admin.herokuapp.com/executives?_sort=id:ASC"
 			);
 			setExec(response.data);
 		};
@@ -22,7 +22,6 @@ function Exec() {
 			<div className="container exec-container">
 				<div className="card-deck">
 					{executive.map((person) => {
-						console.log(person);
 						return (
 							<Card
 								link1={"Email"}
@@ -37,6 +36,9 @@ function Exec() {
 							/>
 						);
 					})}
+					<div className="card" style={{ visibility: "hidden" }} />
+					<div className="card" style={{ visibility: "hidden" }} />
+					<div className="card" style={{ visibility: "hidden" }} />
 				</div>
 			</div>
 		</div>
